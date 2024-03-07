@@ -1,0 +1,39 @@
+.upload-container {
+    width: 300px;
+    margin: auto;
+  }
+  
+  .dropzone {
+    border: 2px dashed #333;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .submit-btn,
+  .cancel-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  .cancel-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  .submit-btn:disabled,
+  .cancel-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

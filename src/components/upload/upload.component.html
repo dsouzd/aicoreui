@@ -1,0 +1,8 @@
+<div class="upload-container">
+    <div class="dropzone" ngx-dropzone [accept]="'application/pdf'" (change)="onFileSelected($event)">
+      <p>Drag & Drop PDF file here</p>
+    </div>
+    <button class="submit-btn" (click)="onSubmit()" [disabled]="!uploadedFile">Submit</button>
+    <button class="cancel-btn" (click)="onCancel()" [disabled]="!uploadedFile">Cancel</button>
+  </div>
+  
